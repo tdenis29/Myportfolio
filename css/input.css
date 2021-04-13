@@ -3,6 +3,16 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: whitesmoke;
+  max-width: 1550px;
+  width: 100%;
+}
+
+.nav {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
 }
 
 .project7-icon {
