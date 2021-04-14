@@ -15,11 +15,12 @@ body {
   color: white;
 }
 
-.landing-icon {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  overflow: hidden;
+.lando {
+  background-image: url();
+  object-fit: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  min-height: 600px;
 }
 
 .project7-icon {
