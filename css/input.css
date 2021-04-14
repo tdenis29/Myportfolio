@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -7,20 +8,61 @@ body {
   width: 100%;
 }
 
+html {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .lando {
+    background-image: url(/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/bg600x600off.jpg);
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .lando {
+    background-image: url(/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/bg1200x600.jpg);
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+  .lando {
+    background-image: url(/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/pexels-tobias-bjørkli-1920x1200.jpg);
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 1921px) and (max-width: 2250px) {
+  .lando {
+    background-image: url(/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/bgxl.jpg);
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 2251px) {
+  .lando {
+    background-image: url(/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/pexels-tobias-bjørkli-1938351.jpg);
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
 .nav {
   background-color: black;
 }
 
 .nav-link {
   color: white;
-}
-
-.lando {
-  background-image: url(/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/bg600x600.jpg);
-  object-fit: cover;
-  width: 100%;
-  background-repeat: no-repeat;
-  min-height: 600px;
 }
 
 .project7-icon {
