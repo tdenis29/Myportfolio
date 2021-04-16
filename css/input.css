@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Righteous&display=swap");
 body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background-color: #D6DBD2;
 }
 
-#intro {
-  height: 100vh;
-  position: relative;
+nav {
+  background-color: #2C363F;
+}
+nav .nav-link {
+  color: #F2F5EA;
 }
 
 #intro {
@@ -15,45 +20,38 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 .mask {
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-  color: white;
+  color: #F2F5EA;
 }
 
 p {
-  color: white;
+  color: #F2F5EA;
 }
 
 .row {
-  background-color: red;
-}
-
-.col {
-  width: 50%;
-  background-color: green;
+  height: 100vh;
 }
 
 .thisgreen {
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-evenly;
 }
 
 .thisblue {
-  background-color: blue;
-}
-
-.thispurple {
-  background-color: purple;
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project7-icon {
