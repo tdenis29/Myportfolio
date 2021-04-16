@@ -68,32 +68,32 @@ h1 {
   margin-top: -8rem;
 }
 
-.project7-icon {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  overflow: hidden;
+.testimonial {
+  height: 50vh;
 }
 
-.project6-icon {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  overflow: hidden;
+.testimonial-card {
+  width: 50%;
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  background-color: #E75A7C;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.testimonial-card .row {
+  height: 75%;
+  width: 75%;
+  align-items: center;
 }
 
-.project3-icon {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  overflow: hidden;
+.avatar {
+  border-radius: 50%;
+  padding: 0.5em;
 }
 
-.project8-icon {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  overflow: hidden;
+.projects {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=input.css.map */
