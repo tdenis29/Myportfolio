@@ -73,13 +73,14 @@ h1 {
 }
 
 .testimonial-card {
-  width: 50%;
+  width: 100%;
   margin: 5rem auto;
   display: flex;
   align-items: center;
   background-color: #E75A7C;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
+  max-width: 565px;
 }
 .testimonial-card .row {
   height: 75%;
