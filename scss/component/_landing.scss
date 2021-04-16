@@ -13,10 +13,13 @@
     background-color: rgba(0, 0, 0, 0.5); 
 }
 h1{
+    font-family: "Allura",cursive;
     color: #F2F5EA;
+   
 }
-p{
+.landing-intro{
     color: #F2F5EA;
+    font-family: "Philosopher", sans-serif;
 }
 .row{
     height: 100vh;
@@ -33,5 +36,13 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    font-family: "Philosopher",sans-serif;
 }
+.landing-cards{
+    width: 45%;
+    height: 45%;
+p{
+    color:#F2F5EA;
+    margin-top: -8rem;
+}}

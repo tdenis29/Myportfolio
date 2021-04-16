@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Nothing+You+Could+Do&family=Philosopher&display=swap");
 body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   background-color: #D6DBD2;
+  font-family: "Philosopher", sans-serif;
 }
 
 nav {
@@ -12,6 +12,7 @@ nav {
 }
 nav .nav-link {
   color: #F2F5EA;
+  font-family: "Philosopher", sans-serif;
 }
 
 #intro {
@@ -30,11 +31,13 @@ nav .nav-link {
 }
 
 h1 {
+  font-family: "Allura", cursive;
   color: #F2F5EA;
 }
 
-p {
+.landing-intro {
   color: #F2F5EA;
+  font-family: "Philosopher", sans-serif;
 }
 
 .row {
@@ -52,6 +55,17 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-family: "Philosopher", sans-serif;
+}
+
+.landing-cards {
+  width: 45%;
+  height: 45%;
+}
+.landing-cards p {
+  color: #F2F5EA;
+  margin-top: -8rem;
 }
 
 .project7-icon {
