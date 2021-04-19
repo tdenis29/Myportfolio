@@ -115,6 +115,7 @@ h1 {
 .project-card {
   background-color: #bbc7a4;
   color: #2c363f;
+  box-shadow: 0px 5px 15px 5px #2c363f;
 }
 
 /*# sourceMappingURL=input.css.map */
