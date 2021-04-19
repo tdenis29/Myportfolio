@@ -1,6 +1,8 @@
 
 #intro {
-    background: url("/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/alireza-attari-5kXNhroW1_Y-unsplash-min.JPEG")no-repeat center center fixed;
+    background-image:
+    linear-gradient(to bottom, rgba(44, 54, 63, .5), rgba(231, 90, 124, .5)),
+    url('/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/alireza-attari-5kXNhroW1_Y-unsplash-min.JPEG');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,29 +22,19 @@ h1{
 .landing-intro{
     color: #F2F5EA;
     font-family: "Philosopher", sans-serif;
+    flex: 1 1 0;
 }
-.row{
+.thisred{
     height: 100vh;
 }
-
 .thisgreen{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    justify-content: space-evenly;
-
-}
-.thisblue{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-family: "Philosopher",sans-serif;
 }
-.landing-cards{
-    width: 45%;
-    height: 45%;
-p{
-    color:#F2F5EA;
-    margin-top: -8rem;
-}}
+
+.my-face{
+    border-radius: 75%;
+    background-image: linear-gradient(to right top, #2c363f, #3f4867, #6f5285, #ae558d, #e75a7c);
+}
