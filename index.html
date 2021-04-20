@@ -9,14 +9,15 @@
 </head>
 <body>
   <header>
-    <nav class="nav justify-content-center">
-      <a class="nav-link" aria-current="page" href="#">Projects</a>
-      <a class="nav-link" href="#">About Me</a>
-      <a class="nav-link" href="#">Contact</a>
+    <nav id="nav"class="nav justify-content-center fixed-top">
+      <a class="nav-link" href="#home">Home</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#contact">Contact</a>
     </nav>
   </header>
   <!-- /landing -->
-  <body>
+  <body id="home" ata-bs-spy="scroll" data-bs-target=".nav">
     <main>
     <div id="intro">
       <div class="container-fluid mask">
@@ -25,12 +26,12 @@
             <img class="img-fluid my-face mx-auto pt-1" src="/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/cropped.jpg">
             <h1 class="text-center display-2">Hello, I'm Tyson Denis</h1>
               <p class="landing-intro text-center display-8">This is my Web Design Portfolio, complete with reasons to HIRE ME!</p>
-              <button id="email" type="button" class="btn btn-primary btn-sm emailme">Email Me!</button>
+              <button type="button" class="btn btn-primary btn-sm emailme" data-bs-toggle="modal" data-bs-target="#emailme">Email Me!</button>
           </div>
           <div class="col-sm-12">
             <div class="thispics">
-            <img class="img-fluid my-pics mx-auto d-none d-md-block" src="/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg">
-            <img class="img-fluid my-pics d-none d-md-block mx-auto" src="/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/garrett-parker-DlkF4-dbCOU-unsplash.jpg">
+            <img class="img-fluid my-pics mx-auto d-md-block" src="/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg">
+            <img class="img-fluid my-pics d-none d-lg-block mx-auto" src="/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/garrett-parker-DlkF4-dbCOU-unsplash.jpg">
             <img class="img-fluid my-pics mx-auto d-none d-md-block" src="/Users/wddep-user/Desktop/Code/Myportfolio/resources/images/janko-ferlic-h9Iq22JJlGk-unsplash.jpg">
             </div>
           </div>
@@ -42,7 +43,23 @@
     </div>
 
     <!-- Modal -->
-   
+    <div class="modal fade" id="emailme" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Email Me!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Form Goes Here
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- /Modal -->
     <!-- Half VH testimonial  -->
@@ -65,7 +82,7 @@
   </section>
 <!-- Content Section -->
 <section>
-<h2 class="display-5 text-center mb-3">Projects</h2>
+<h2 class="display-5 text-center mb-3" id="projects">Projects</h2>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1">
   <div class="col">
     <div class="card project-card mx-4">
@@ -127,37 +144,8 @@
 
 </section>
 <section>
-  <h2 class="display-5 text-center mb-3">About Me</h2>
+  <h2 class="display-5 text-center mb-3" id="about">About Me</h2>
 </section>
-
-<div class="modal-body" id="myModal">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12"><button type="button" class="btn-close" aria-label="Close"></button></div>
-      <div class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 ms-auto">.col-md-3 .ms-auto</div>
-      <div class="col-md-2 ms-auto">.col-md-2 .ms-auto</div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 ms-auto">.col-md-6 .ms-auto</div>
-    </div>
-    <div class="row">
-      <div class="col-sm-9">
-        Level 1: .col-sm-9
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            Level 2: .col-8 .col-sm-6
-          </div>
-          <div class="col-4 col-sm-6">
-            Level 2: .col-4 .col-sm-6
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
