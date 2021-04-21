@@ -1,0 +1,44 @@
+.about{
+    height: 100vh;
+}
+.color-div{
+    height: 18.75rem;
+    width: 16.25rem;
+    border: solid 1px black;
+    margin: 1rem auto;
+    border-radius: 5%;
+}
+.color-col{
+    position: relative;
+}
+.like{
+    margin: .5rem auto;
+    display: block;
+    height: 3rem;
+    width: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    flex-shrink: 1;
+    background-color:  rgba(231, 90, 124);
+    border: none;
+    margin-bottom: .5rem;
+    color: #f2f5ea;
+}
+.new{
+    margin: .5rem auto;
+    display: block;  
+    height: 3rem;
+    width: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    flex-shrink: 1;
+    background-color:  rgba(231, 90, 124);
+    border: none;
+    margin-bottom: .5rem;
+    color: #f2f5ea;
+}
+.colorbtns{
+    display: flex;
+    justify-content: center;
+   
+}

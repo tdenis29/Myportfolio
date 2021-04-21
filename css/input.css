@@ -146,6 +146,55 @@ h1 {
   background-color: red;
 }
 
+.about {
+  height: 100vh;
+}
+
+.color-div {
+  height: 18.75rem;
+  width: 16.25rem;
+  border: solid 1px black;
+  margin: 1rem auto;
+  border-radius: 5%;
+}
+
+.color-col {
+  position: relative;
+}
+
+.like {
+  margin: 0.5rem auto;
+  display: block;
+  height: 3rem;
+  width: 7rem;
+  margin-right: auto;
+  margin-left: auto;
+  flex-shrink: 1;
+  background-color: #e75a7c;
+  border: none;
+  margin-bottom: 0.5rem;
+  color: #f2f5ea;
+}
+
+.new {
+  margin: 0.5rem auto;
+  display: block;
+  height: 3rem;
+  width: 7rem;
+  margin-right: auto;
+  margin-left: auto;
+  flex-shrink: 1;
+  background-color: #e75a7c;
+  border: none;
+  margin-bottom: 0.5rem;
+  color: #f2f5ea;
+}
+
+.colorbtns {
+  display: flex;
+  justify-content: center;
+}
+
 #contact {
   background-color: #2C363F;
   color: #f2f5ea;
@@ -155,6 +204,7 @@ h1 {
   height: 2rem;
   width: 2rem;
   fill: #f2f5ea;
+  margin: 1rem;
 }
 
 .backtop {
