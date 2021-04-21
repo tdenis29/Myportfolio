@@ -146,4 +146,15 @@ h1 {
   width: 2rem;
 }
 
+.backtop {
+  height: 3rem;
+  width: 7rem;
+  margin-right: auto;
+  margin-left: auto;
+  flex-shrink: 1;
+  background-color: #e75a7c;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
 /*# sourceMappingURL=input.css.map */
