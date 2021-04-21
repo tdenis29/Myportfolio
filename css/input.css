@@ -70,6 +70,7 @@ h1 {
   border-radius: 75%;
   margin-top: 1rem;
   border: solid 2px black;
+  flex-shrink: 1;
 }
 
 .thispics {
@@ -128,6 +129,10 @@ h1 {
   width: 1.5rem;
 }
 
+.project-link:hover {
+  background-color: #e75a7c;
+}
+
 .modal-content {
   background-color: #2c363f;
   color: #f2f5f2;
@@ -141,9 +146,15 @@ h1 {
   background-color: red;
 }
 
+#contact {
+  background-color: #2C363F;
+  color: #f2f5ea;
+}
+
 .social-icon {
   height: 2rem;
   width: 2rem;
+  fill: #f2f5ea;
 }
 
 .backtop {
