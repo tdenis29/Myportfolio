@@ -33,6 +33,26 @@ noLike.addEventListener('click', e => {
   body.style.backgroundColor = "#f2f5ea";
 });
 
+// messager 
 
+const user = document.getElementById("userField");
+const message = document.getElementById("messageField");
+const email = document.getElementById('emailField')
+const send = document.getElementById("send");
+
+send.addEventListener('click', () => {
+  // ensure user and message fields are filled out
+  if (user.value === "" && message.value === "" && email.value === "") {
+  alert("Please fill out user, email and message fields before sending");
+  } else if (user.value === "" ) {
+  alert("Please fill out user field before sending");
+  } else if (message.value === "" ) {
+  alert("Please fill out message field before sending");
+  } else if (email.value === "") {
+  alert("Please enter your email")
+  } else {
+  alert(`Message successfully sent to: ${user.value}`);
+  }
+  });
 
 

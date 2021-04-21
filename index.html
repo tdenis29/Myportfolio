@@ -55,17 +55,21 @@
             <!-- Registration Form -->
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>
-              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Freddy Mercury">
+              <input type="name" class="form-control" id="userField" placeholder="Freddy Mercury">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <input type="email" class="form-control" id="emailField" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="textarea" class="form-label">Please send me a short message and I'll get back to you as soon as possible!</label>
+              <textarea class="form-control" id="messageField" rows="3"></textarea>
             </div>
             <!-- /egistration form -->
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary form-btn">Save changes</button>
+            <button id="send" type="button" class="btn btn-primary form-btn">Send</button>
           </div>
         </div>
       </div>
