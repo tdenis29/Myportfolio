@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-color: #D6DBD2;
+  background-color: #f2f5ea;
   font-family: "Philosopher", sans-serif;
   position: relative;
 }
@@ -61,7 +61,7 @@ h1 {
   height: 8.25rem;
   width: 9.25rem;
   border-radius: 75%;
-  margin-top: 1.5rem;
+  margin-top: 2.2rem;
 }
 
 .my-pics {
@@ -119,7 +119,7 @@ h1 {
 }
 
 .project-card {
-  background-color: #bbc7a4;
+  background-color: #2D93AD;
   color: #2c363f;
   box-shadow: 0px 5px 15px 5px #2c363f;
 }
