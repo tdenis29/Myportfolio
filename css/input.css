@@ -140,15 +140,15 @@ h1 {
   }
   50% {
     opacity: 0.5;
-    transform: scale(50%);
+    transform: scale(0.5);
   }
   75% {
     opacity: 0.75;
-    transform: scale(150%);
+    transform: scale(1.5);
   }
   100% {
     opacity: 1;
-    transform: scale(100%);
+    transform: scale(1);
   }
 }
 @keyframes moveInFromBottom {
@@ -300,6 +300,10 @@ h1 {
   background-color: #e75a7c;
   border: none;
   margin-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=input.css.map */
