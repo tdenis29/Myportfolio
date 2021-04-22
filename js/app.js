@@ -3,13 +3,13 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: '#nav'
 });
 // random color 
-const noLike = document.getElementById('nolikeBtn')
+const noLike = document.getElementById('nolikeBtn');
 const body = document.querySelector('body');
 const div = document.getElementById('colorDiv');
-const newColor = document.getElementById('newBtn')
+const newColor = document.getElementById('newBtn');
 const colorbutton = document.getElementById('likeBtn');
 const hex = ['1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'
-]
+];
 
 let hexanum = "#";
 
@@ -21,7 +21,7 @@ function changeBackground() {
     hexanum = "#";
   }
  for (i = 0; i < 6; i++) {
-hexanum += hex[Math.floor(Math.random() * hex.length)]
+hexanum += hex[Math.floor(Math.random() * hex.length)];
 div.style.backgroundColor = hexanum;
  }};
 
@@ -51,8 +51,8 @@ send.addEventListener('click', () => {
   } else if (email.value === "") {
   alert("Please enter your email")
   } else {
-  alert(`Hello ${user.value}, Thank you for your email!`);
-  }
+  alert(`Hello ${user.value}, Thank you for your email!`)
+  };
   });
 
 // Animated landing.
@@ -79,19 +79,19 @@ entries.forEach(entry => {
 
 faders.forEach(fader => {
   appear.observe(fader);
-})
+});
 // back to top button 
-const backToTop = document.getElementById("back")
+const backToTop = document.getElementById("back");
 
 
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+};
 
 backToTop.addEventListener('click', e => {
   topFunction();
-})
+});
 
 
 
@@ -106,31 +106,3 @@ backToTop.addEventListener('click', e => {
 
 
 
-
-// with aos
-// const $backTop = $(".back-to-top");
-// const isHidden = "is-hidden";
-
-// AOS.init({
-//   offset: 200,
-//   delay: 50,
-//   once: true
-// });
-
-/*$('a[data-toggle="pill"]').on("shown.bs.tab", e => {
-  AOS.refresh();
-});*/
-
-// $(window).on("scroll", function() {
-//   const $this = $(this);
-//   if ($this.scrollTop() + $this.height() == $(document).height()) {
-//     $backTop.removeClass(isHidden);
-//   } else {
-//     $backTop.addClass(isHidden);
-//   }
-// });
-
-// $backTop.on("click", () => {
-//   $("html, body").animate({ scrollTop: 0 }, "slow");
-//   return false;
-// });
