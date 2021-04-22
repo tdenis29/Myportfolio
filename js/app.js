@@ -51,8 +51,76 @@ send.addEventListener('click', () => {
   } else if (email.value === "") {
   alert("Please enter your email")
   } else {
-  alert(`Message successfully sent to: ${user.value}`);
+  alert(`Hello ${user.value}, Thank you for your email!`);
   }
   });
 
+// Animated landing.
 
+const faders = document.querySelectorAll('.fade-in');
+
+const appearOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px -150px 0px" 
+};
+
+const appear = new IntersectionObserver
+(function(entries, appear) {
+entries.forEach(entry => {
+    if(!entry.isIntersecting){
+      return
+    } else{
+      entry.target.classList.add('appear');
+      appear.unobserve(entry.target)
+    }
+  });
+}, appearOptions);
+
+
+faders.forEach(fader => {
+  appear.observe(fader);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// with aos
+// const $backTop = $(".back-to-top");
+// const isHidden = "is-hidden";
+
+// AOS.init({
+//   offset: 200,
+//   delay: 50,
+//   once: true
+// });
+
+/*$('a[data-toggle="pill"]').on("shown.bs.tab", e => {
+  AOS.refresh();
+});*/
+
+// $(window).on("scroll", function() {
+//   const $this = $(this);
+//   if ($this.scrollTop() + $this.height() == $(document).height()) {
+//     $backTop.removeClass(isHidden);
+//   } else {
+//     $backTop.addClass(isHidden);
+//   }
+// });
+
+// $backTop.on("click", () => {
+//   $("html, body").animate({ scrollTop: 0 }, "slow");
+//   return false;
+// });
