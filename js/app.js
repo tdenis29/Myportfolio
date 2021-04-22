@@ -28,7 +28,7 @@ div.style.backgroundColor = hexanum;
 colorbutton.addEventListener('click', e => {
   body.style.backgroundColor = hexanum;
  
-});
+})
 noLike.addEventListener('click', e => {
   body.style.backgroundColor = "#f2f5ea";
 });
@@ -49,9 +49,9 @@ send.addEventListener('click', () => {
   } else if (message.value === "" ) {
   alert("Please fill out message field before sending");
   } else if (email.value === "") {
-  alert("Please enter your email")
+  alert("Please enter your email");
   } else {
-  alert(`Hello ${user.value}, Thank you for your email!`)
+  alert(`Hello ${user.value}, Thank you for your email!`);
   };
   });
 
