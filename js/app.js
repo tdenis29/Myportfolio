@@ -80,8 +80,18 @@ entries.forEach(entry => {
 faders.forEach(fader => {
   appear.observe(fader);
 })
+// back to top button 
+const backToTop = document.getElementById("back")
 
 
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+backToTop.addEventListener('click', e => {
+  topFunction();
+})
 
 
 
