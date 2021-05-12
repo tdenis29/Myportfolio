@@ -36,6 +36,8 @@ nav .nav-link {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+  height: 90vh;
+  margin-top: 2.5rem;
 }
 
 .mask {
@@ -44,12 +46,25 @@ nav .nav-link {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.centerdiv {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 h1 {
   font-family: "Allura", cursive;
   color: #F2F5EA;
   animation-name: slideInLeft;
   animation-duration: 0.7s;
   animation-timing-function: ease-in;
+  font-size: 5rem;
+  flex: 1 1 0;
 }
 
 .landing-intro {
@@ -61,43 +76,15 @@ h1 {
   animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
-.thisred {
-  height: 100vh;
-}
-
-.thisgreen {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  justify-content: center;
-}
-
 .my-face {
-  height: 8.25rem;
-  width: 9.25rem;
   border-radius: 75%;
-  margin-top: 2.2rem;
+  margin: 0 auto;
+  width: 12rem;
 }
 
-.my-pics {
-  height: 16.5rem;
-  width: 18.5rem;
-  border-radius: 75%;
-  margin-top: 1rem;
-  border: solid 2px black;
-  flex-shrink: 1;
-  animation-name: moveInFromBottom;
-  animation-duration: 1.5s;
-}
-
-.thispics {
-  display: flex;
-  justify-content: center;
-}
-
-.emailme {
-  height: 3rem;
-  width: 7rem;
+.gotowork {
+  height: 3.5rem;
+  width: 8rem;
   margin-right: auto;
   margin-left: auto;
   flex-shrink: 1;
@@ -107,6 +94,28 @@ h1 {
   animation: bigBtn;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
+  border-radius: 5%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-txt {
+  padding-top: 1rem;
+}
+
+.emailme {
+  height: 3.5rem;
+  width: 8rem;
+  margin-right: auto;
+  margin-left: auto;
+  flex-shrink: 1;
+  background-color: #e75a7c;
+  border: none;
+  margin-bottom: 0.5rem;
+  animation: bigBtn;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  border-radius: 5%;
 }
 
 .emailme:hover {
