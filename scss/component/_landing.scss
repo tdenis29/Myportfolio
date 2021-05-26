@@ -52,6 +52,19 @@ h1{
     border-radius: 75%;
     margin-top: 1rem;
     border: solid 2px black;
+<<<<<<< Updated upstream
+=======
+}
+.thispics{
+    display: flex;
+    justify-content: center; 
+}
+.gotowork{
+    height: 3.5rem;
+    width: 8rem;
+    margin-right: auto;
+    margin-left: auto;
+>>>>>>> Stashed changes
     flex-shrink: 1;
     animation-name: moveInFromBottom;
     animation-duration: 1.5s;
